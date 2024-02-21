@@ -1,9 +1,38 @@
 {
-  "posts": [
-    { "id": 1, "title": "json-server", "author": "typicode" }
-  ],
-  "comments": [
-    { "id": 1, "body": "some comment", "postId": 1 }
-  ],
-  "profile": { "name": "typicode" }
+  "users": [
+    {
+      "id": 1,
+      "name": "cemshid",
+      "email": "huseynagha@mail.com",
+      "password" : "huseynagha",
+      "restaurant": {
+        "name": "Bizimkiler",
+        "phone" : "050-201-00-01",
+        "photos" : [],
+        "location": "Araz Nov kuc.42",
+        "workTime": "10:00 - 12:00",
+        "menu": {
+          "hot": [
+            {
+              "name": "Dolma",
+              "image": "",
+              "price": 5.2
+            },
+            {
+              "name" : "Levengi",
+              "image" : "",
+              "price" : 8
+            }
+          ],
+          "drinks" : [
+            {
+              "name": "Kola",
+              "image": "",
+              "price": 3
+            }
+          ]
+        }
+      }
+    }
+  ]
 }
